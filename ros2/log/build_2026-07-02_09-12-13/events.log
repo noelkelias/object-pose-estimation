@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000471] (object_pose) JobQueued: {'identifier': 'object_pose', 'dependencies': OrderedDict()}
+[0.000569] (object_pose) JobStarted: {'identifier': 'object_pose'}
+[0.003981] (object_pose) JobProgress: {'identifier': 'object_pose', 'progress': 'cmake'}
+[0.005223] (object_pose) Command: {'cmd': ['/usr/bin/cmake', '/ws/ros2/object_pose', '-DCMAKE_INSTALL_PREFIX=/ws/ros2/install/object_pose'], 'cwd': '/ws/ros2/build/object_pose', 'env': OrderedDict([('HOSTNAME', '9da96852ef7d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('PROJECT_ROOT', '/ws'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ws/ros2/build/object_pose'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/ws'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034267] (object_pose) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.061183] (object_pose) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.065731] (object_pose) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.100195] (-) TimerEvent: {}
+[0.107349] (object_pose) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.111597] (object_pose) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.112211] (object_pose) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.112341] (object_pose) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.115170] (object_pose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.165247] (object_pose) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.170044] (object_pose) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.170422] (object_pose) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.170627] (object_pose) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.172703] (object_pose) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200292] (-) TimerEvent: {}
+[0.223973] (object_pose) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.260485] (object_pose) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.271821] (object_pose) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.273342] (object_pose) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.276010] (object_pose) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.279949] (object_pose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.285430] (object_pose) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299355] (object_pose) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.303249] (-) TimerEvent: {}
+[0.303319] (object_pose) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.324122] (object_pose) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.332113] (object_pose) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.344294] (object_pose) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.348334] (object_pose) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.390997] (object_pose) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.391980] (object_pose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.404291] (-) TimerEvent: {}
+[0.438822] (object_pose) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.440503] (object_pose) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.461202] (object_pose) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.505318] (-) TimerEvent: {}
+[0.507421] (object_pose) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.525857] (object_pose) StdoutLine: {'line': b'-- Generating done\n'}
+[0.534279] (object_pose) StdoutLine: {'line': b'-- Build files have been written to: /ws/ros2/build/object_pose\n'}
+[0.538197] (object_pose) CommandEnded: {'returncode': 0}
+[0.538573] (object_pose) JobProgress: {'identifier': 'object_pose', 'progress': 'build'}
+[0.539897] (object_pose) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/ros2/build/object_pose', '--', '-j14', '-l14'], 'cwd': '/ws/ros2/build/object_pose', 'env': OrderedDict([('HOSTNAME', '9da96852ef7d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('PROJECT_ROOT', '/ws'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ws/ros2/build/object_pose'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/ws'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.564167] (object_pose) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_latency_monitor.dir/src/pose_latency_monitor.cpp.o\x1b[0m\n'}
+[0.606287] (-) TimerEvent: {}
+[0.716677] (-) TimerEvent: {}
+[0.823261] (-) TimerEvent: {}
+[0.928299] (-) TimerEvent: {}
+[1.029325] (-) TimerEvent: {}
+[1.130306] (-) TimerEvent: {}
+[1.231558] (-) TimerEvent: {}
+[1.337323] (-) TimerEvent: {}
+[1.439805] (-) TimerEvent: {}
+[1.540408] (-) TimerEvent: {}
+[1.641828] (-) TimerEvent: {}
+[1.742801] (-) TimerEvent: {}
+[1.843799] (-) TimerEvent: {}
+[1.944791] (-) TimerEvent: {}
+[2.046537] (-) TimerEvent: {}
+[2.147791] (-) TimerEvent: {}
+[2.248785] (-) TimerEvent: {}
+[2.353548] (-) TimerEvent: {}
+[2.456966] (-) TimerEvent: {}
+[2.557787] (-) TimerEvent: {}
+[2.663316] (-) TimerEvent: {}
+[2.769078] (-) TimerEvent: {}
+[2.873782] (-) TimerEvent: {}
+[2.975027] (-) TimerEvent: {}
+[3.077043] (-) TimerEvent: {}
+[3.169521] (object_pose) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pose_latency_monitor\x1b[0m\n'}
+[3.177304] (-) TimerEvent: {}
+[3.278299] (-) TimerEvent: {}
+[3.363183] (object_pose) StdoutLine: {'line': b'[100%] Built target pose_latency_monitor\n'}
+[3.367440] (object_pose) CommandEnded: {'returncode': 0}
+[3.368291] (object_pose) JobProgress: {'identifier': 'object_pose', 'progress': 'install'}
+[3.371767] (object_pose) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/ros2/build/object_pose'], 'cwd': '/ws/ros2/build/object_pose', 'env': OrderedDict([('HOSTNAME', '9da96852ef7d'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('PROJECT_ROOT', '/ws'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ws/ros2/build/object_pose'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/ws'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.374507] (object_pose) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.375366] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/lib/object_pose/pose_latency_monitor\n'}
+[3.379273] (-) TimerEvent: {}
+[3.396592] (object_pose) StdoutLine: {'line': b'-- Set runtime path of "/ws/ros2/install/object_pose/lib/object_pose/pose_latency_monitor" to ""\n'}
+[3.396873] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/config\n'}
+[3.397875] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/config/demo.rviz\n'}
+[3.399280] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/lib/object_pose/demo_rgbd_publisher.py\n'}
+[3.400752] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/lib/object_pose/rgbd_pose_node.py\n'}
+[3.402635] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/ament_index/resource_index/package_run_dependencies/object_pose\n'}
+[3.403964] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/ament_index/resource_index/parent_prefix_path/object_pose\n'}
+[3.405650] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/ament_prefix_path.sh\n'}
+[3.406823] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/ament_prefix_path.dsv\n'}
+[3.407908] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/path.sh\n'}
+[3.409064] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/path.dsv\n'}
+[3.410262] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.bash\n'}
+[3.411546] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.sh\n'}
+[3.412915] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.zsh\n'}
+[3.414162] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.dsv\n'}
+[3.415279] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/package.dsv\n'}
+[3.416825] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/ament_index/resource_index/packages/object_pose\n'}
+[3.418310] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/cmake/object_poseConfig.cmake\n'}
+[3.419639] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/cmake/object_poseConfig-version.cmake\n'}
+[3.420871] (object_pose) StdoutLine: {'line': b'-- Installing: /ws/ros2/install/object_pose/share/object_pose/package.xml\n'}
+[3.422987] (object_pose) CommandEnded: {'returncode': 0}
+[3.440718] (object_pose) JobEnded: {'identifier': 'object_pose', 'rc': 0}
+[3.441560] (-) EventReactorShutdown: {}

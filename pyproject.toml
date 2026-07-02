@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "object-pose-estimation"
+version = "0.1.0"
+description = "RGB-D object pose via HSV detection and Open3D mask point cloud centroid"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10,<3.13"
+authors = [
+    { name = "Noel Elias" },
+]
+keywords = ["robotics", "pose-estimation", "rgb-d", "opencv", "isaac-sim", "ros2"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24,<3",
+    "opencv-python-headless>=4.8,<5",
+    "open3d>=0.17,<0.20",
+    "matplotlib>=3.7,<4",
+    "pandas>=2.0,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0,<2",
+    "nbconvert>=7.0,<8",
+    "ipykernel>=6.0,<7",
+    "reportlab>=4.0,<5",
+    "pypdf>=4.0,<7",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rgbd_pose*", "data*", "evals*"]
+namespaces = true

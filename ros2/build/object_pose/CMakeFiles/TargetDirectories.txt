@@ -1,0 +1,10 @@
+/ws/ros2/build/object_pose/CMakeFiles/uninstall.dir
+/ws/ros2/build/object_pose/CMakeFiles/object_pose_uninstall.dir
+/ws/ros2/build/object_pose/CMakeFiles/pose_latency_monitor.dir
+/ws/ros2/build/object_pose/CMakeFiles/test.dir
+/ws/ros2/build/object_pose/CMakeFiles/edit_cache.dir
+/ws/ros2/build/object_pose/CMakeFiles/rebuild_cache.dir
+/ws/ros2/build/object_pose/CMakeFiles/list_install_components.dir
+/ws/ros2/build/object_pose/CMakeFiles/install.dir
+/ws/ros2/build/object_pose/CMakeFiles/install/local.dir
+/ws/ros2/build/object_pose/CMakeFiles/install/strip.dir

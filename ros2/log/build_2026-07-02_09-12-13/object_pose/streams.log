@@ -1,0 +1,65 @@
+[0.007s] Invoking command in '/ws/ros2/build/object_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/ros2/object_pose -DCMAKE_INSTALL_PREFIX=/ws/ros2/install/object_pose
+[0.034s] -- The C compiler identification is GNU 11.4.0
+[0.061s] -- The CXX compiler identification is GNU 11.4.0
+[0.065s] -- Detecting C compiler ABI info
+[0.107s] -- Detecting C compiler ABI info - done
+[0.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.112s] -- Detecting C compile features
+[0.112s] -- Detecting C compile features - done
+[0.115s] -- Detecting CXX compiler ABI info
+[0.165s] -- Detecting CXX compiler ABI info - done
+[0.170s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.170s] -- Detecting CXX compile features
+[0.170s] -- Detecting CXX compile features - done
+[0.175s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.224s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.267s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.271s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.273s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.279s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.300s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.303s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.326s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.335s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.348s] -- Looking for pthread.h
+[0.391s] -- Looking for pthread.h - found
+[0.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.442s] -- Found Threads: TRUE  
+[0.464s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.507s] -- Configuring done
+[0.525s] -- Generating done
+[0.537s] -- Build files have been written to: /ws/ros2/build/object_pose
+[0.538s] Invoked command in '/ws/ros2/build/object_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/ros2/object_pose -DCMAKE_INSTALL_PREFIX=/ws/ros2/install/object_pose
+[0.540s] Invoking command in '/ws/ros2/build/object_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/ros2/build/object_pose -- -j14 -l14
+[0.564s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_latency_monitor.dir/src/pose_latency_monitor.cpp.o[0m
+[3.169s] [100%] [32m[1mLinking CXX executable pose_latency_monitor[0m
+[3.363s] [100%] Built target pose_latency_monitor
+[3.367s] Invoked command in '/ws/ros2/build/object_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/ros2/build/object_pose -- -j14 -l14
+[3.371s] Invoking command in '/ws/ros2/build/object_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/ros2/build/object_pose
+[3.374s] -- Install configuration: ""
+[3.375s] -- Installing: /ws/ros2/install/object_pose/lib/object_pose/pose_latency_monitor
+[3.396s] -- Set runtime path of "/ws/ros2/install/object_pose/lib/object_pose/pose_latency_monitor" to ""
+[3.396s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/config
+[3.397s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/config/demo.rviz
+[3.399s] -- Installing: /ws/ros2/install/object_pose/lib/object_pose/demo_rgbd_publisher.py
+[3.400s] -- Installing: /ws/ros2/install/object_pose/lib/object_pose/rgbd_pose_node.py
+[3.402s] -- Installing: /ws/ros2/install/object_pose/share/ament_index/resource_index/package_run_dependencies/object_pose
+[3.403s] -- Installing: /ws/ros2/install/object_pose/share/ament_index/resource_index/parent_prefix_path/object_pose
+[3.405s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/ament_prefix_path.sh
+[3.406s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/ament_prefix_path.dsv
+[3.407s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/path.sh
+[3.409s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/environment/path.dsv
+[3.410s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.bash
+[3.411s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.sh
+[3.412s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.zsh
+[3.414s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/local_setup.dsv
+[3.415s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/package.dsv
+[3.416s] -- Installing: /ws/ros2/install/object_pose/share/ament_index/resource_index/packages/object_pose
+[3.418s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/cmake/object_poseConfig.cmake
+[3.419s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/cmake/object_poseConfig-version.cmake
+[3.420s] -- Installing: /ws/ros2/install/object_pose/share/object_pose/package.xml
+[3.424s] Invoked command in '/ws/ros2/build/object_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/ros2/build/object_pose

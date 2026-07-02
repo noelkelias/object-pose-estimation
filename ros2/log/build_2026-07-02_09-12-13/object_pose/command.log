@@ -1,0 +1,6 @@
+Invoking command in '/ws/ros2/build/object_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/ros2/object_pose -DCMAKE_INSTALL_PREFIX=/ws/ros2/install/object_pose
+Invoked command in '/ws/ros2/build/object_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ws/ros2/object_pose -DCMAKE_INSTALL_PREFIX=/ws/ros2/install/object_pose
+Invoking command in '/ws/ros2/build/object_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/ros2/build/object_pose -- -j14 -l14
+Invoked command in '/ws/ros2/build/object_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ws/ros2/build/object_pose -- -j14 -l14
+Invoking command in '/ws/ros2/build/object_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/ros2/build/object_pose
+Invoked command in '/ws/ros2/build/object_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ws/ros2/build/object_pose
